@@ -119,15 +119,61 @@
       <h2 id="projects-heading">Selected projects</h2>
 
       <div class="projects">
+
+<article>
+  <p class="tools">
+    Python · pandas · MariaDB · Excel
+  </p>
+  <h3>Agency Reporting Pipeline</h3>
+  <p><strong>In progress</strong></p>
+  <p>
+    Developing a reporting workflow that combines operational
+    SQL data with distribution records to produce agency-level
+    Excel reports.
+  </p>
+  <p>
+    <strong>Engineering focus:</strong>
+    Data extraction, transformation, validation, and reconciliation
+    across sources, with the goal of reducing manual report
+    preparation.
+  </p>
+  <a class="button"
+     href="https://github.com/judeaboagye461/reporting-">
+    View work in progress →
+  </a>
+</article>
+
+<article>
+  <p class="tools">
+    PostgreSQL · SQL · R · Data Integration
+  </p>
+  <h3>Jury Composition &amp; Census Data Pipeline</h3>
+  <p><strong>Collaborative project · Pipeline contributor</strong></p>
+  <p>
+    Contributed to a data pipeline integrating county-level
+    jury demographics with 2024 American Community Survey
+    benchmarks across Iowa’s 99 counties.
+  </p>
+  <p>
+    <strong>My contribution:</strong>
+    Standardized court and demographic data, built SQL
+    analytics views for population comparisons, and documented
+    handling of missing demographic categories and zero-value
+    calculations.
+  </p>
+  <p>
+    The workflow organized data into raw, staging, and analytics
+    layers for downstream analysis in R.
+  </p>
+</article>
         <article>
           <p class="tools">
             PostgreSQL · SQL · Data Pipelines
           </p>
           <h3>Iowa Claims Data Pipeline</h3>
           <p>
-            A SQL-based pipeline that transforms raw Iowa
-            unemployment insurance claims into structured
-            tables for analysis.
+           Built a PostgreSQL pipeline to transform raw Iowa unemployment
+           insurance claims into query-ready datasets. Organized the workflow into staging and analytics schemas, used SQL views to clean and transform records, and added checks for null and missing values. The repository includes SQL scripts, setup instructions, and a pipeline diagram.
           </p>
           <p>
             <strong>Engineering focus:</strong>
